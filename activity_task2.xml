@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вуглець у горючій масі (C), %" />
+
+    <EditText
+        android:id="@+id/inputH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Водень у горючій масі (H), %" />
+
+    <EditText
+        android:id="@+id/inputO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Кисень у горючій масі (O), %" />
+
+    <EditText
+        android:id="@+id/inputS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Сірка у горючій масі (S), %" />
+
+    <EditText
+        android:id="@+id/inputA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Зола у сухій масі (A), %" />
+
+    <EditText
+        android:id="@+id/inputW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Волога у робочій масі (W), %" />
+
+    <EditText
+        android:id="@+id/inputV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ванадій (V), мг/кг" />
+
+    <EditText
+        android:id="@+id/inputQi_daf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Нижча теплота згоряння горючої маси (Qi_daf), МДж/кг" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Розрахувати" />
+
+    <TextView
+        android:id="@+id/workingMassTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Склад робочої маси"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/workingMassC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/workingMassH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/workingMassO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/workingMassS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/workingMassA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/workingMassV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/resultWorkingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Водень (H), %" />
+
+    <EditText
+        android:id="@+id/inputC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Вуглець (C), %" />
+
+    <EditText
+        android:id="@+id/inputS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Сірка (S), %" />
+
+    <EditText
+        android:id="@+id/inputN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Азот (N), %" />
+
+    <EditText
+        android:id="@+id/inputO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Кисень (O), %" />
+
+    <EditText
+        android:id="@+id/inputW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Волога (W), %" />
+
+    <EditText
+        android:id="@+id/inputA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Зола (A), %" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Розрахувати" />
+
+    <TextView
+        android:id="@+id/dryMassTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Суха маса"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dryMassH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dryMassC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dryMassS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dryMassN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dryMassO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dryMassA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/combustibleMassTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Горюча маса"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/combustibleMassH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/combustibleMassC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/combustibleMassS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/combustibleMassN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/combustibleMassO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/resultWorkingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/resultDryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/resultCombustibleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
